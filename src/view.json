@@ -1,0 +1,21 @@
+[{
+    "label": "配置",
+    "prop": "redis",
+    "component": {
+        "name": "cl-codemirror",
+        "attrs": {
+            "placeholder": "{\"host\":\"127.0.0.1\",\"password\":\"\",\"port\":6379,\"db\":2}"
+        },
+        "props":{
+            "height": "200px"
+        }
+    },
+    "value": "{\"host\":\"127.0.0.1\",\"password\":\"\",\"port\":6379,\"db\":2}",
+    "props": {
+        "label-width": "80px"
+    },
+    "rules": {
+        "required": true,
+        "message": "值不能为空"
+    }
+}]
